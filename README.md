@@ -1,4 +1,5 @@
 ## 简介
+
 基于Tensorflow和Keras实现端到端的不定长中文字符检测和识别
 
 * 文本检测：CTPN
@@ -48,19 +49,7 @@ python train.py
 | -----------| ---------- | -----------|
 | 0.983 | 8ms | 18.9MB |
 
-* GPU: GTX TITAN X
-* Keras Backend: Tensorflow
 
-#### 4. 生成自己的样本
-
-可参考[SynthText_Chinese_version](https://github.com/JarveeLee/SynthText_Chinese_version)，[TextRecognitionDataGenerator](https://github.com/Belval/TextRecognitionDataGenerator)和[text_renderer](https://github.com/Sanster/text_renderer)
-
-## 效果展示
-
-<div>
-<img width="420" height="420" src="https://github.com/YCG09/chinese_ocr/blob/master/demo/demo_detect.jpg"/>
-<img width="420" height="420" src="https://github.com/YCG09/chinese_ocr/blob/master/demo/demo_rec.jpg"/>
-</div>
 
 ## 参考
 
